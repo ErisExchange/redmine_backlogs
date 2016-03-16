@@ -173,6 +173,12 @@
                               Setting.plugin_redmine_backlogs.has_key?(:story_close_status_id)?(Setting.plugin_redmine_backlogs[:story_close_status_id].to_i):0)
   ) %>
   </span>
+  <br />
+  <span>
+  <%= content_tag(:label, l(:backlogs_story_leaves_copy_when_moving)) %>
+  <%= check_box_tag("settings[story_leaves_copy_when_moving]", 'enabled',
+      Backlogs.setting[:story_leaves_copy_when_moving]) %>
+  </span>
 </p>
 
 <p>

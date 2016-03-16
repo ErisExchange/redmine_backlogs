@@ -70,6 +70,7 @@ en:
   backlogs_story_follows_task_status: "Story follows Task status"
   backlogs_story_settings: "Story and Task settings"
   backlogs_story_tracker: "Story trackers"
+  backlogs_story_leaves_copy_when_moving: "When dragging a partially-completed Story to new Sprint, leave a copy behind"
   backlogs_task: Task
   backlogs_task_tracker: "Task tracker"
   backlogs_wiki_template: "Template for sprint wiki page"
